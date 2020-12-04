@@ -1,0 +1,128 @@
+body {
+
+text-align:center;
+
+font-family:Geneva, Arial, Helvetica, sans-serif;
+
+background-image:url(../img/loginbg.gif);
+
+
+
+}
+
+head {
+height:90px; width:100%; border:1px solid #000000;
+}
+
+.applemenu{
+margin: 5px 0;
+padding: 0;
+width: 170px; /*width of menu*/
+border: 1px solid #9A9A9A;
+width:160px;
+background-color:#FFFFFF;
+}
+
+.applemenu div.silverheader a{
+background: black url(silvergradient.gif) repeat-x center left;
+font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 5px 0;
+padding-left: 8px;
+text-decoration: none;
+}
+
+.applemenu div.silverheader a:visited, .applemenu div.silverheader a:active{
+color: white;
+}
+
+.applemenu div.selected a, .applemenu div.silverheader a:hover{
+background-image: url(silvergradientover.gif);
+color: white;
+}
+
+.applemenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+padding: 5px;
+height: 300px; /*Height that applies to all sub menu DIVs. A good idea when headers are toggled via "mouseover" instead of "click"*/
+width:150px;
+}
+
+#content{
+margin:0 auto;
+border:0px solid #FFFFFF;
+width:970px;
+height:125%;
+text-align:left;
+
+}
+
+#menu_left {
+width:170px;
+height:auto;
+float:left;
+display:block;
+
+}
+
+#menu_right {
+width:790px;
+float:right;
+background:#FFFFFF;
+height:auto;
+margin-bottom:50px;
+margin-top:5px;
+border:1px solid #999999;
+}
+
+#margentexto {
+margin:3px;
+}
+
+#box {
+width:370px;
+height:auto;
+background:#FFFFFF;
+height:auto;
+margin:10px;
+border:1px solid #999999;
+}
+
+#sec {
+background-image:url(../img/loginbg.gif);
+color: white;
+}
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+.myinputstyle {
+
+	/** remember to change image path **/
+	background: url(none) no-repeat #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #454743;
+	border:1px solid #999999;
+}
+
+/** You can use this style for your LABEL elements **/
+.mylabelstyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+	font-size: 13px;
+	color: #0a0a0a;
+}
+
+/** 
+*  You can use this style for your INPUT, TEXTAREA, SELECT elements 
+*  for onmousehover event
+**/
+.myinputstyle:hover {
+	border:1px solid #999999;
+	/** remember to change image path **/
+	background: url(none) no-repeat #CCCCCC;
+	color: #454743;
+}
